@@ -26,3 +26,12 @@ the recommended container for pgvecgtorscale is the timescaledb-ha container.
 
 - https://github.com/timescale/pgvectorscale
 - https://hub.docker.com/r/timescale/timescaledb-ha
+
+### initial vector test data
+
+Taken from the one-off archived https://github.com/mgrosso/issue110-pgvectorscale.git
+
+## TODO
+
+- demonstrate compatibility with citus for horizontal scaling, both sharded by customer and with large data distributed across nodes.
+- A wikipedia data loading and query test.
